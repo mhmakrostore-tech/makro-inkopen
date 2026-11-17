@@ -8,3 +8,10 @@ MAKRO INKOPEN - aparte inkoopapp
 6. Maak regelmatig JSON-back-ups via het menu Back-up.
 
 BELANGRIJK: De gegevens worden alleen lokaal op het apparaat bewaard. Er is NOG GEEN automatische synchronisatie tussen apparaten, geen online database en geen login. Voor gedeelde data tussen apparaten moet later een database worden gekoppeld. Camera/barcodescan vereist HTTPS en een browser met BarcodeDetector-ondersteuning. De verstuurde tekst bevat uitsluitend productnaam en aantal CRT; gratis-CRT-herinneringen zijn intern.
+
+FIREBASE VERSIE
+- Alleen mh.makrostore@gmail.com krijgt toegang. Firestore Security Rules moeten gepubliceerd zijn.
+- Online synchronisatie via document makroData/main. Lokale browserkopie is geen beveiligde cloudback-up.
+- Wijzigingen op twee apparaten tegelijk kunnen elkaar overschrijven; werk bij voorkeur niet gelijktijdig in dezelfde lijst.
+- Voor eerste gebruik op GitHub Pages: Authentication > Authorized domains moet mhmakrostore-tech.github.io bevatten.
+- De webpagina zelf is publiek; gegevens worden pas geladen na Google-login en door Firestore-regels beschermd.
