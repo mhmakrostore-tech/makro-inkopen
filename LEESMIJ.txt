@@ -1,0 +1,10 @@
+MAKRO INKOPEN - aparte inkoopapp
+
+1. Upload de inhoud van deze map naar een EIGEN nieuwe GitHub Pages repository, bijvoorbeeld makro-inkopen. Upload NIET naar de bestaande offerte- of verkooprepository.
+2. Activeer GitHub Pages (Settings > Pages > Deploy from branch > main/root).
+3. Open de Pages-link op telefoon, tablet of PC. Via browsermenu > Toevoegen aan startscherm / App installeren installeer je de app.
+4. Voeg leveranciers, actiegroepen en producten toe. Producten van verschillende merken mogen dezelfde actiegroep krijgen.
+5. Selecteer CRT-aantallen en gebruik de deelknop om de besteltekst te versturen. Bevestig alleen 'verstuurd' als de verzending echt is gelukt.
+6. Maak regelmatig JSON-back-ups via het menu Back-up.
+
+BELANGRIJK: De gegevens worden alleen lokaal op het apparaat bewaard. Er is NOG GEEN automatische synchronisatie tussen apparaten, geen online database en geen login. Voor gedeelde data tussen apparaten moet later een database worden gekoppeld. Camera/barcodescan vereist HTTPS en een browser met BarcodeDetector-ondersteuning. De verstuurde tekst bevat uitsluitend productnaam en aantal CRT; gratis-CRT-herinneringen zijn intern.
